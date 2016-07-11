@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://coderchow.com/"/>
+  <link href="http://www.coderchow.com/"/>
   <updated>2016-07-11T16:10:41.000Z</updated>
-  <id>http://coderchow.com/</id>
+  <id>http://www.coderchow.com/</id>
   
   <author>
     <name>AllenChow</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>测试</title>
-    <link href="http://coderchow.com/2016/07/12/%E6%B5%8B%E8%AF%95/"/>
-    <id>http://coderchow.com/2016/07/12/测试/</id>
+    <link href="http://www.coderchow.com/2016/07/12/%E6%B5%8B%E8%AF%95/"/>
+    <id>http://www.coderchow.com/2016/07/12/测试/</id>
     <published>2016-07-11T16:10:00.000Z</published>
     <updated>2016-07-11T16:10:41.000Z</updated>
     
