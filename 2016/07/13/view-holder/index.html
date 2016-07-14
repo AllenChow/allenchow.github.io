@@ -3,22 +3,32 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Archives: 2016/7 | AC&#39;s blog | 活着</title>
+  <title>ViewHolder模式的简洁写法 | AC&#39;s blog | 活着</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
   <meta name="theme-color" content="#3F51B5">
   
   
-  <meta name="keywords" content="undefined">
-  <meta name="description" content="想成为宠物小精灵训练师的程序猿！ (╯‵□′)╯︵┴─┴">
-<meta property="og:type" content="website">
-<meta property="og:title" content="AC's blog">
-<meta property="og:url" content="http://www.coderchow.com/archives/2016/07/index.html">
+  <meta name="keywords" content="Android">
+  <meta name="description" content="public class ViewHolder {
+@SuppressWarnings(&amp;quot;unchecked&amp;quot;)
+public static &amp;lt;T extends View&amp;gt; T get(View view, int id) {
+    SparseArray&amp;lt;View&amp;gt; viewHolder = (SparseArray&amp;lt;View&amp;gt;) vi">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ViewHolder模式的简洁写法">
+<meta property="og:url" content="http://www.coderchow.com/2016/07/13/view-holder/index.html">
 <meta property="og:site_name" content="AC's blog">
-<meta property="og:description" content="想成为宠物小精灵训练师的程序猿！ (╯‵□′)╯︵┴─┴">
+<meta property="og:description" content="public class ViewHolder {
+@SuppressWarnings(&amp;quot;unchecked&amp;quot;)
+public static &amp;lt;T extends View&amp;gt; T get(View view, int id) {
+    SparseArray&amp;lt;View&amp;gt; viewHolder = (SparseArray&amp;lt;View&amp;gt;) vi">
+<meta property="og:updated_time" content="2016-07-14T04:38:46.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="AC's blog">
-<meta name="twitter:description" content="想成为宠物小精灵训练师的程序猿！ (╯‵□′)╯︵┴─┴">
+<meta name="twitter:title" content="ViewHolder模式的简洁写法">
+<meta name="twitter:description" content="public class ViewHolder {
+@SuppressWarnings(&amp;quot;unchecked&amp;quot;)
+public static &amp;lt;T extends View&amp;gt; T get(View view, int id) {
+    SparseArray&amp;lt;View&amp;gt; viewHolder = (SparseArray&amp;lt;View&amp;gt;) vi">
   
     <link rel="alternative" href="/atom.xml" title="AC&#39;s blog" type="application/atom+xml">
   
@@ -30,7 +40,7 @@
 <body>
   <div id="loading" class="active"></div>
 
-  <nav id="menu"  >
+  <nav id="menu" class="hide" >
    <div class="inner flex-row-vertical">
   <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
       <i class="icon icon-lg icon-close"></i>
@@ -100,7 +110,7 @@
         <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
           <i class="icon icon-lg icon-navicon"></i>
         </a>
-        <div class="flex-col header-title ellipsis">AC&#39;s blog</div>
+        <div class="flex-col header-title ellipsis">ViewHolder模式的简洁写法</div>
         
         <div class="search-wrap" id="search-wrap">
             <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
@@ -121,51 +131,144 @@
 </header>
 <header class="content-header">
   <div class="container">
-    <h1 class="author">AC&#39;s blog</h1>
+    <h1 class="author">ViewHolder模式的简洁写法</h1>
     <h5 class="subtitle">
-         
-        活着
+          
+            <time datetime="2016-07-13T06:39:27.000Z" itemprop="datePublished" class="page-time">
+  2016-07-13
+</time>
+
+ 
         
     </h5>
   </div>
 </header>
 
     <div class="container body-wrap">
-      
-
-
-        <h3 class="archive-separator">July, 2016</h3>
-
-
-
-     <article class="archive-article">
-  <div class="archive-article-date">
-    <time datetime="2016-07-13T06:39:27.000Z" itemprop="datePublished" class="post-time">
-  Jul 13
-</time>
-
-  </div>
-  <div class="archive-article-inner">
-    
-
-
-  
-    <h3 class="post-title" itemprop="name">
-      <a class="post-title-link" href="/2016/07/13/view-holder/">ViewHolder模式的简洁写法</a>
-    </h3>
-  
-
-
-
-    
+      <article id="post-view-holder" 
+  class="article article-type-post" itemprop="blogPost">
+    <div class="post-meat flex-row">
+        
 	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Android/">Android</a></li></ul>
 
-  </div>
+    </div>
+    <div class="post-body">
+        <aside class="post-widget" id="post-widget">
+
+            
+            <div class="post-share" id="post-share">
+    <div class="tit">分享到：</div>
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" href="javascript:;" data-title="微博" data-service="tsina">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns" href="javascript:;" data-title="微信" data-service="weixin">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" href="javascript:;" data-title=" QQ" data-service="cqq">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" href="javascript:;" data-title=" Facebook" data-service="fb">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" href="javascript:;" data-title=" Twitter" data-service="twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="douban share-sns" href="javascript:;" data-title="豆瓣" data-service="douban">
+          豆
+        </a>
+      </li>
+    </ul>
+ </div>
+
+            
+
+            
+            <nav class="post-toc-wrap" id="post-toc">
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#使用方法"><span class="post-toc-text">使用方法</span></a></li></ol>
+            </nav>
+            
+        </aside>
+
+        <div class="post-main">
+
+            <div class="post-content" id="post-content" itemprop="postContent">
+            <pre><code>public class ViewHolder {
+@SuppressWarnings(&quot;unchecked&quot;)
+public static &lt;T extends View&gt; T get(View view, int id) {
+    SparseArray&lt;View&gt; viewHolder = (SparseArray&lt;View&gt;) view.getTag();
+    if (viewHolder == null) {
+        viewHolder = new SparseArray&lt;View&gt;();
+        view.setTag(viewHolder);
+    }
+    View childView = viewHolder.get(id);
+    if (childView == null) {
+        childView = view.findViewById(id);
+        viewHolder.put(id, childView);
+    }
+    return (T) childView;
+}
+</code></pre><p>}</p>
+<h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><pre><code>@Override
+public View getView(int position, View convertView, ViewGroup parent) {
+    if (convertView == null) {
+        convertView = LayoutInflater.from(context).inflate(
+                R.layout.item, parent, false);
+    }
+    ImageView imageView = ViewHolder.get(convertView, R.id.myIv);
+    TextView textView = ViewHolder.get(convertView, R.id.myTv);
+    ....
+    }
+</code></pre>
+            <blockquote>
+                <p>
+                本文地址：
+                <a href="http://www.coderchow.com/2016/07/13/view-holder/" target="_blank" rel="external">http://www.coderchow.com/2016/07/13/view-holder/</a>
+                </p>
+                <footer><cite><a href="http://www.coderchow.com">@AC's blog</a></cite></footer>
+            </blockquote>
+            </div>
+            
+
+            
+            
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="view-holder" data-title="ViewHolder模式的简洁写法" data-url="http://www.coderchow.com/2016/07/13/view-holder/index.html"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"coderchow"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+
+        </div>
+    </div>
 </article>
-
-
-
-
     </div>
   </main>
 <div class="mask" id="mask"></div>
@@ -173,10 +276,10 @@
 
 <script>
 var BLOG_SHARE = {
-    title: "AC's blog",
+    title: "ViewHolder模式的简洁写法",
     pic: "/img/logo.jpg",
     summary: document.getElementsByName('summary')[0].content,
-    url: "http://www.coderchow.com/archives/2016/07/index.html"
+    url: "http://www.coderchow.com/2016/07/13/view-holder/index.html"
 };
 </script>
 <div class="global-share" id="global-share">
